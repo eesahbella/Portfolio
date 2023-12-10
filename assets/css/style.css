@@ -37,16 +37,23 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 100px; 
+}
 
 
 /*nav styling*/
-#navigation {
-  display: flex;
-  width: 50%;
-  align-items: left;
-  justify-content: flex-end;
+.navbar {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
-#navigation li a {
-  cursor: pointer;
+a {
+  color: #ffffff;
   text-decoration: none;
 }
