@@ -63,14 +63,43 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #34302e;
 }
 img {
   border-radius: 50%;
   height: 350px;
-  left: 1050px
+  left: 1050px;
 }
 
 .hero-banner h2 {
-  margin-right: 20px;
+  margin-right: 50px;
   color: #34302e;
 }
+
+/*float styles*/
+.page-wrapper {
+  float: left;
+  margin-left: 20px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about p {
+  margin: 50px 100px;
+}
+
+#about h2 {
+  border-right: 2px solid #34302e;
+  padding-right: 60px;
+}
+
+/*#about p {
+  width: 70%;
+  display: inline-block;
+  margin-left: 50px;
+}*/
