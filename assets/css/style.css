@@ -83,23 +83,103 @@ img {
   margin-left: 20px;
 }
 
+/*about section styling*/
 #about {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid #34302e;
 }
 
 #about p {
   margin: 50px 100px;
+  width: 65%;
+
 }
 
 #about h2 {
   border-right: 2px solid #34302e;
+  padding: 20px;
   padding-right: 60px;
 }
 
-/*#about p {
-  width: 70%;
-  display: inline-block;
-  margin-left: 50px;
-}*/
+/*work section styling*/
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #34302e;
+  padding-bottom: 300px;
+}
+
+#work h2 {
+  border-right: 2px solid #34302e;
+  padding: 20px;
+  padding-right: 100px;
+}
+
+
+/*grid styling*/
+#grid-container {
+  display: grid;
+  width: 67%;
+  
+  cursor: pointer;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 75% 50% 50%; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    "app-1 app-1 app-1 app-1"
+    "app-2 app-2 app-3 app-3"
+    "app-4 app-4 app-5 app-5"; 
+  
+}
+
+.grid-item {
+  display: grid;
+  border: 2px solid #34302e;
+  margin: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+#app-1 { 
+  grid-area: app-1;
+  background-image: url("/assets/images/02-portfolio-4.jpg");
+ }
+
+#app-2 { 
+  grid-area: app-2; 
+  background-image: url("/assets/images/02-portfolio-1.jpg");
+}
+
+#app-3 { 
+  grid-area: app-3;
+  background-image: url("/assets/images/02-portfolio-2.jpg"); 
+}
+
+#app-4 { 
+  grid-area: app-4;
+  background-image: url("/assets/images/02-portfolio-3.jpg");
+}
+
+#app-5 { 
+  grid-area: app-5;
+  background-image: url("/assets/images/02-run-buddy.jpg"); 
+}
+
+.heading {
+  border-bottom: 1px solid black;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/*Contact section styling*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
