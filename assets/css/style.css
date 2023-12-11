@@ -149,6 +149,7 @@ img {
 #app-1 { 
   grid-area: app-1;
   background-image: url("/assets/images/02-portfolio-4.jpg");
+  
  }
 
 #app-2 { 
@@ -172,7 +173,6 @@ img {
 }
 
 .heading {
-  border-bottom: 1px solid black;
   padding: 15px;
   font-size: 18px;
 }
