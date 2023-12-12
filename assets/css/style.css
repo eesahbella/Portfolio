@@ -204,128 +204,124 @@ img {
 
 /* Media query for screen width 900px or less */
 @media screen and (max-width: 900px) {
-  /* Adjustments for screens 900px or less go here */
   .header nav ul li {
-    margin-left: 20px; /* Adjust the margin for smaller screens */
+    margin-left: 20px;
   }
 
   .navbar {
-    font-size: 16px; /* Adjust the font size for smaller screens */
+    font-size: 16px;
   }
 
   .hero-banner img {
-    height: 250px; /* Adjust the height of the image for smaller screens */
+    height: 250px; 
   }
 
   #about p {
-    margin: 20px; /* Adjust the margin for smaller screens */
-    width: 100%; /* Make the width full for smaller screens */
+    margin: 20px; 
+    width: 100%; 
   }
 
   #about h2 {
-    padding-right: 20px; /* Adjust padding for smaller screens */
+    padding-right: 20px; 
   }
 
   #work h2 {
-    padding-right: 50px; /* Adjust padding for smaller screens */
-    right: 20px; /* Adjust position for smaller screens */
+    padding-right: 50px; 
   }
 
   #grid-container {
-    width: 100%; /* Make the width full for smaller screens */
+    width: 100%; 
   }
 
   #contact h2 {
-    padding-right: 20px; /* Adjust padding for smaller screens */
-    left: 20px; /* Adjust position for smaller screens */
+    padding-right: 20px;
+    left: 20px; 
   }
 
   #contact ul li {
-    left: 20px; /* Adjust position for smaller screens */
+    left: 20px; 
   }
 }
 
 /* Media query for screen width 700px or less */
 @media screen and (max-width: 700px) {
-  /* Adjustments for screens 700px or less go here */
   .header nav ul li {
-    margin-left: 10px; /* Further reduce the margin for smaller screens */
+    margin-left: 10px;
   }
 
   .navbar {
-    font-size: 14px; /* Further reduce the font size for smaller screens */
+    font-size: 14px; 
   }
 
   .hero-banner img {
-    height: 200px; /* Further reduce the height of the image for smaller screens */
+    height: 200px; 
   }
 
   #about p {
-    margin: 10px; /* Further reduce the margin for smaller screens */
+    margin: 10px;
   }
 
   #about h2 {
-    padding-right: 10px; /* Further reduce padding for smaller screens */
+    padding-right: 10px; 
   }
 
   #work h2 {
-    padding-right: 30px; /* Further reduce padding for smaller screens */
-    right: 10px; /* Further adjust position for smaller screens */
+    padding-right: 30px; 
+    right: 10px; 
   }
 
   #grid-container {
-    width: 100%; /* Make the width full for smaller screens */
+    width: 100%; 
   }
 
   #contact h2 {
-    padding-right: 10px; /* Further reduce padding for smaller screens */
-    left: 10px; /* Further adjust position for smaller screens */
+    padding-right: 10px; 
+    left: 10px; 
   }
 
   #contact ul li {
-    left: 10px; /* Further adjust position for smaller screens */
+    left: 10px; 
   }
 }
 
 /* Media query for screen width 500px or less */
 @media screen and (max-width: 500px) {
-  /* Adjustments for screens 500px or less go here */
   .header nav ul li {
-    margin-left: 5px; /* Further reduce the margin for smaller screens */
+    margin-left: 5px; 
   }
 
   .navbar {
-    font-size: 12px; /* Further reduce the font size for smaller screens */
+    font-size: 12px; 
   }
 
   .hero-banner img {
-    height: 150px; /* Further reduce the height of the image for smaller screens */
+    height: 150px; 
   }
 
   #about p {
-    margin: 5px; /* Further reduce the margin for smaller screens */
+    margin: 5px;
   }
 
   #about h2 {
-    padding-right: 5px; /* Further reduce padding for smaller screens */
+    padding-right: 5px;
   }
 
   #work h2 {
-    padding-right: 20px; /* Further reduce padding for smaller screens */
-    right: 5px; /* Further adjust position for smaller screens */
+    padding-right: 20px; 
+    right: 5px; 
   }
 
   #grid-container {
-    width: 100%; /* Make the width full for smaller screens */
+    width: 100%; 
   }
 
   #contact h2 {
-    padding-right: 5px; /* Further reduce padding for smaller screens */
-    left: 5px; /* Further adjust position for smaller screens */
+    padding-right: 5px; 
+    left: 5px; 
   }
 
   #contact ul li {
-    left: 5px; /* Further adjust position for smaller screens */
+    left: 5px; 
   }
 }
 
