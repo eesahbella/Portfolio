@@ -201,3 +201,131 @@ img {
   position: relative;
   left: 350px;
 }
+
+/* Media query for screen width 900px or less */
+@media screen and (max-width: 900px) {
+  /* Adjustments for screens 900px or less go here */
+  .header nav ul li {
+    margin-left: 20px; /* Adjust the margin for smaller screens */
+  }
+
+  .navbar {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .hero-banner img {
+    height: 250px; /* Adjust the height of the image for smaller screens */
+  }
+
+  #about p {
+    margin: 20px; /* Adjust the margin for smaller screens */
+    width: 100%; /* Make the width full for smaller screens */
+  }
+
+  #about h2 {
+    padding-right: 20px; /* Adjust padding for smaller screens */
+  }
+
+  #work h2 {
+    padding-right: 50px; /* Adjust padding for smaller screens */
+    right: 20px; /* Adjust position for smaller screens */
+  }
+
+  #grid-container {
+    width: 100%; /* Make the width full for smaller screens */
+  }
+
+  #contact h2 {
+    padding-right: 20px; /* Adjust padding for smaller screens */
+    left: 20px; /* Adjust position for smaller screens */
+  }
+
+  #contact ul li {
+    left: 20px; /* Adjust position for smaller screens */
+  }
+}
+
+/* Media query for screen width 700px or less */
+@media screen and (max-width: 700px) {
+  /* Adjustments for screens 700px or less go here */
+  .header nav ul li {
+    margin-left: 10px; /* Further reduce the margin for smaller screens */
+  }
+
+  .navbar {
+    font-size: 14px; /* Further reduce the font size for smaller screens */
+  }
+
+  .hero-banner img {
+    height: 200px; /* Further reduce the height of the image for smaller screens */
+  }
+
+  #about p {
+    margin: 10px; /* Further reduce the margin for smaller screens */
+  }
+
+  #about h2 {
+    padding-right: 10px; /* Further reduce padding for smaller screens */
+  }
+
+  #work h2 {
+    padding-right: 30px; /* Further reduce padding for smaller screens */
+    right: 10px; /* Further adjust position for smaller screens */
+  }
+
+  #grid-container {
+    width: 100%; /* Make the width full for smaller screens */
+  }
+
+  #contact h2 {
+    padding-right: 10px; /* Further reduce padding for smaller screens */
+    left: 10px; /* Further adjust position for smaller screens */
+  }
+
+  #contact ul li {
+    left: 10px; /* Further adjust position for smaller screens */
+  }
+}
+
+/* Media query for screen width 500px or less */
+@media screen and (max-width: 500px) {
+  /* Adjustments for screens 500px or less go here */
+  .header nav ul li {
+    margin-left: 5px; /* Further reduce the margin for smaller screens */
+  }
+
+  .navbar {
+    font-size: 12px; /* Further reduce the font size for smaller screens */
+  }
+
+  .hero-banner img {
+    height: 150px; /* Further reduce the height of the image for smaller screens */
+  }
+
+  #about p {
+    margin: 5px; /* Further reduce the margin for smaller screens */
+  }
+
+  #about h2 {
+    padding-right: 5px; /* Further reduce padding for smaller screens */
+  }
+
+  #work h2 {
+    padding-right: 20px; /* Further reduce padding for smaller screens */
+    right: 5px; /* Further adjust position for smaller screens */
+  }
+
+  #grid-container {
+    width: 100%; /* Make the width full for smaller screens */
+  }
+
+  #contact h2 {
+    padding-right: 5px; /* Further reduce padding for smaller screens */
+    left: 5px; /* Further adjust position for smaller screens */
+  }
+
+  #contact ul li {
+    left: 5px; /* Further adjust position for smaller screens */
+  }
+}
+
